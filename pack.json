@@ -1,0 +1,16 @@
+{
+  "name": "meanio-zones",
+  "version": "1.0.0",
+  "description": "Base zone package",
+  "author": {
+    "name": "Shih-Min Lee"
+  },
+  "mean": "0.4.x",
+  "engines": {
+    "node": "4.0.0",
+    "npm": "1.4.x"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}

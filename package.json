@@ -1,0 +1,31 @@
+{
+  "name": "meanio-zones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "node node_modules/.bin/mocha server/tests/*.js -R spec -r tools/test/mocha-req.js",
+    "test": "npm run mocha"
+  },
+  "author": "Shih-Min Lee",
+  "license": "ISC",
+  "dependencies": {
+    "randomstring": "^1.1.5",
+    "googlemaps": "0.1.20"
+  },
+  "devDependencies": {
+    "assetmanager": "^1.2.3",
+    "babel-eslint": "^5.0.0-beta6",
+    "bluebird": "^3.4.1",
+    "crypto": "0.0.3",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.11.3",
+    "lodash": "^4.13.1",
+    "meanio": "git+https://github.com/ssmlee04/meanio-raml#master",
+    "mocha": "^2.5.3",
+    "mongoose": "4.4.16",
+    "path": "^0.12.7",
+    "should": "^9.0.2",
+    "validator": "3.28.0"
+  }
+}
