@@ -8,10 +8,10 @@
 var Promise = require('bluebird')
 var mongoose = require('mongoose')
 var Schema = mongoose.Schema
-var config = require('meanio').loadConfig()
-var path = require('path')
+// var config = require('meanio').loadConfig()
+// var path = require('path')
 var validator = require('validator')
-var googlemaps = require(path.join(config.root, '/config/googlemaps'))
+var googlemaps = require('./../googlemaps')
 var _ = require('lodash')
 var latStart = -90
 var latEnd = 90

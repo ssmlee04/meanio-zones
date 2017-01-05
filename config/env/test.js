@@ -1,12 +1,12 @@
-"use strict";
+'use strict';
 
 module.exports = {
-  server: "http://localhost:3000",
+  server: 'http://localhost:3000',
   mongodb: {
-    db: "mongodb://127.0.0.1:27017/meanio-test",
+    db: 'mongodb://127.0.0.1:27017/meanio-test',
     dbOptions: {
-      user: "",
-      pass: ""
+      user: '',
+      pass: ''
     }
   },
   debug: true,
@@ -15,6 +15,6 @@ module.exports = {
     debug: false
   },
   app: {
-    name: ""
+    name: ''
   }
 };
